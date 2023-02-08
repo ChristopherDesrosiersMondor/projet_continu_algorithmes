@@ -2,12 +2,6 @@
 
 [comment]: # (Définir un nom de projet qui explique sommairement ce dernier.)
 
-[comment]: # (Je vais utiliser le code [comment]: #  pour ajouter des commentaires dans mes readme qui fonctionneront sur plusieurs plateforme mettant en forme le markdown)
-
-[comment]: # (Source: https://stackoverflow.com/questions/4823468/comments-in-markdown)
-
-[comment]: # (Utilisateur: Nick Volynkin)
-
 ## Description
 
 [comment]: # (Il faut expliquer ce que le projet fait exactement. Il faut décrire le contexte du projet ainsi qu’offrir des ressources externes pour les termes pouvant être moins connus par les visiteurs. Si jamais ce projet est une solution alternative à un autre, il est important de le mentionner dans cette section.)
