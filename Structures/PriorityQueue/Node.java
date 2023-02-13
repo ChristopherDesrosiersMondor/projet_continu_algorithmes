@@ -1,4 +1,4 @@
-package ProjetContinu.semaine3;
+package PriorityQueue;
 
 public class Node<T> {
     private Node<T> previous = null;
