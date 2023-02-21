@@ -41,7 +41,8 @@ Algorithme de Tri:
         2-tri par Sélection:
                 -Ce qu'on appelle le tri par sélection car à chaque parcours sélectionnait le plus grand élément et le déplaçait dans la partition triée
                 -Algorithme en place
-                -O(n2) complexité temporelle quadratique
+                -O(n2) complexité temporelle quadratique pire cas
+                -O(1) complexité temporelle meilleur cas
                 -Il faudra 100 étapes pour trier 10 articles
                 ne nécessite pas beaucoup d'échange comme tri à bulles.
                 -Algorithme instable
@@ -71,7 +72,6 @@ Algorithme de Tri:
                 -Algorithme récursif
                 -Deux phases : la phase de scission et la phase de fusion
                 -Big O(log n)
-                -
         Processus de tri:
                 -Phase de fractionnement:
                         -Considérez-le comme un algorithme récursif qui divise continuellement le tableau en deux jusqu'à ce qu'il ne puisse plus être divisé. Cela signifie que si le tableau devient vide ou n'a plus qu'un seul élément, la division s'arrêtera, c'est-à-dire que c'est le cas de base pour arrêter la récursivité. Si le tableau a plusieurs éléments, divisez le tableau en moitiés et appelez récursivement le tri par fusion sur chacune des moitiés. Enfin, lorsque les deux moitiés sont triées, l'opération de fusion est appliquée. L'opération de fusion est le processus consistant à prendre deux tableaux triés plus petits et à les combiner pour en faire éventuellement un plus grand.
@@ -83,7 +83,8 @@ Algorithme de Tri:
                 -Quicksort est un algorithme diviser pour mieux régner. Il fonctionne en sélectionnant un élément 'pivot' dans le tableau et en partitionnant les autres éléments en deux sous-tableaux, selon qu'ils sont inférieurs ou supérieurs au pivot. Pour cette raison, il est parfois appelé tri par échange de partition.
                 -Algorithme en place
                 -Algorithme recursif
-                -Big O(log n)
+                -Big O(n2) quadratic pire cas
+                -Big O(log n) meilleur cas
                 -Algorithme instable
                 -Il est important de noter que le choix du pivot peut avoir un effet sur la complexité temporelle. Selon les données à trier.
                 
@@ -101,10 +102,6 @@ Algorithme de Tri:
 [comment]: # (## Installation)
 
 [comment]: # (Si jamais le projet nécessite l’installation de logiciels ou bibliothèque supplémentaire, il est important de le préciser ici. De plus, il faut prendre en considération que les visiteurs risquent souvent d’être des personnes plus novices. Par conséquent, il est utile de bien décrire chaque étape de l’installation de ce matériel supplémentaire.)
-
-
-## Utilisation
-
 
 [comment]: # (## Support)
 
