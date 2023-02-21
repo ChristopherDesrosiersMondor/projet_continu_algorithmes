@@ -1,4 +1,4 @@
-# Algorithmes : Projet continu :round_pushpin:
+# Structures : Projet continu :mortar_board:
 
 [comment]: # (Définir un nom de projet qui explique sommairement ce dernier.)
 
@@ -113,28 +113,9 @@ Structures de données:
 [comment]: # (Si jamais le projet nécessite l’installation de logiciels ou bibliothèque supplémentaire, il est important de le préciser ici. De plus, il faut prendre en considération que les visiteurs risquent souvent d’être des personnes plus novices. Par conséquent, il est utile de bien décrire chaque étape de l’installation de ce matériel supplémentaire.)
 
 
-## Utilisation
- 
-
-[comment]: # (## Support)
-
-[comment]: # (Indiquez ici les endroits où les utilisateurs peuvent avoir accès à de l’aide : adresse de courriel, forum de discussion, etc.)
-
-
-[comment]: # (## Feuille de route)
-
-[comment]: # (Si jamais le projet est toujours en production, c’est une bonne idée de présenter une feuille de route qui indique les ajouts futurs.)
-
-## Contribution
-
-[comment]: # (Il est important de préciser si vous êtes ouverts à des contributions et les spécifications autour de ces dernières.)
-Je suis très ouvert aux contributions et commentaires.
-
-[comment]: # (Il est aussi utile de présenter les prérequis au développement du projet tel que des variables d’environnement à modifier ou l’exécution préalable de routines.)
-
-
 ## Auteurs et reconnaissances
-L'échange théorique sur les possibilités et les différences dans notre approche au code avec Patrick, Valérie et Lou m'ont aider à passer par dessus plusieurs blocages.
+Patrick Oliveira
+Christopher Desrosiers Mondor
 
 [comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)
 
@@ -144,4 +125,4 @@ CC
 
 
 ## État du projet
-Le développement du projet est en attente pour évaluation dans le cadre du cours de Concept de programmation.
+Le développement du projet est en attente pour évaluation dans le cadre du cours d'algorithmes.

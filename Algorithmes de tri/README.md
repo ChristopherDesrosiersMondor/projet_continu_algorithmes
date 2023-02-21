@@ -156,7 +156,8 @@ Je suis très ouvert aux contributions et commentaires.
 
 
 ## Auteurs et reconnaissances
-L'échange théorique sur les possibilités et les différences dans notre approche au code avec Patrick, Valérie et Lou m'ont aider à passer par dessus plusieurs blocages.
+Patrick Oliveira
+Christopher Desrosiers Mondor
 
 [comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)
 
@@ -166,4 +167,4 @@ CC
 
 
 ## État du projet
-Le développement du projet est en attente pour évaluation dans le cadre du cours de Concept de programmation.
+Le développement du projet est en attente pour évaluation dans le cadre du cours d'algorithmes.
