@@ -1,58 +1,43 @@
-# Algorithmes : Projet continu :round_pushpin:
-
-[comment]: # (Définir un nom de projet qui explique sommairement ce dernier.)
+# Algorithmes de recherche : Projet continu :mortar_board:
 
 ## Description
+### Astar
+L'algorithme de recherche Astar utilise les informations connues sur une situation comme par exemple l'entrée et la sortie d'un labyrinthe ainsi qu'une heuristique donnée, par exemple la distance manhatan. En calculant le cout de déplacement et l'heuristique de chaque emplacement visité, Astar nous permet de trouver un chemin optimisé sans visiter trop de positions inutiles.
 
-[comment]: # (Il faut expliquer ce que le projet fait exactement. Il faut décrire le contexte du projet ainsi qu’offrir des ressources externes pour les termes pouvant être moins connus par les visiteurs. Si jamais ce projet est une solution alternative à un autre, il est important de le mentionner dans cette section.)
-Ce programme permet à un.e utilisateur.ice de planifier des commandes dans le cadre d'un restaurant. L'utilisateur.ice prend le role d'une personne faisant une commande et 
-le programme permet de prévoir les étapes nécessaire dans un ordre optimal pour finir tous les repas commandés au même moment pour la livraison!
+### Breath first search
+L'algorithme de breath first search va priorisé visiter tous ses voisins pour trouver ce qu'il chercher avant de répéter l'opérations pour tous les voisins de tous ses voisins. On peut mimiquer cette description en utilisant une structure de type lilo (last in last out) comme une file pour garder l'ordre de visite des voisins.
 
-
-[comment]: # (## Aide visuelle)
-
-[comment]: # (Tout dépendant du type de projet, il peut être fort intéressant d’ajouter des supports visuels en faciliter la compréhension.)
-
-
-[comment]: # (## Installation)
-
-[comment]: # (Si jamais le projet nécessite l’installation de logiciels ou bibliothèque supplémentaire, il est important de le préciser ici. De plus, il faut prendre en considération que les visiteurs risquent souvent d’être des personnes plus novices. Par conséquent, il est utile de bien décrire chaque étape de l’installation de ce matériel supplémentaire.)
+### Depth first search
+L'algorithme de dept first search va priorisé visiter tous les enfants d'un voisin dans une direction donnée avant de faire de même pour le prochain voisin. On peut mimiquer cette description en utilisant une structure de type fifo (first in first out) comme une pile pour générer l'ordre d'exécution sur les voisins. L'utilisation de la récursion est particulièrement simple pour cet algorithme.
 
 
-## Utilisation
-Lors du lancement du programme l'utilisateur.ice se fera présenter les choix suivants:  
-- Entrez l'heure desirer pour votre commande ou laisser vide pour maintenant[hh:mm]:
-- Entrez le nom d'un article du menu a ajouter a votre commande:  
-        - Ici l'article pourra être refusé si il n'est pas disponible et sera trier selon si c'est une boisson ou un repas.  
-- Avez vous fini votre commande? :  
-        - Ici l'utilisateur.ice peut continuer à ajouter des articles à sa commande ou quitter et voir le résultat (Étapes de la recette combinée et boissons)  
+## Aide visuelle
+### Représentation visuelle d'une solution par Astar
+![astar_exemple](./images/astar_exemple.png "Représentation visuelle d'une solution par Astar")
 
-[comment]: # (## Support)
+### Représentation visuelle d'une solution par breath first search
+![breath_first_exemple](./images/breath_first_exemple.png "Représentation visuelle d'une solution par breath first search")
 
-[comment]: # (Indiquez ici les endroits où les utilisateurs peuvent avoir accès à de l’aide : adresse de courriel, forum de discussion, etc.)
+### Représentation visuelle d'une solution par depth first search
+![depth_first_exemple](./images/dept_first_exemple.png "Représentation visuelle d'une solution par depth first search")
 
+## Analyse des algorithmes
+### Astar
+L'initialisation de l'algorithme se fait en O(n^2)
+L'initialisation des valeurs dans les nodes se fait en O(n)
+La complexité temporelle de Astar dépend de la qualité de l'heuristique. Je m'explique. Dans le cas ou on doit visiter tous les noeuds parce que l'heuristique est vraiment mauvaise et que les couts sont mal calculés par exemple, la complexité sera de n^2logn parce que on fera n fois les actions de recherches dont l'action la plus longue est le quicksort avec une complexité de nlogn. Par contre, plus on diminue le nombre de noeuds visités plus on s'approche d'une complexité de nlogn.
 
-[comment]: # (## Feuille de route)
+### Breath first search
+La solution se fait en O(n) dans le pire cas ou il faut visiter tous les voisins de tous les voisins pour trouver la sortie.
 
-[comment]: # (Si jamais le projet est toujours en production, c’est une bonne idée de présenter une feuille de route qui indique les ajouts futurs.)
-
-## Contribution
-
-[comment]: # (Il est important de préciser si vous êtes ouverts à des contributions et les spécifications autour de ces dernières.)
-Je suis très ouvert aux contributions et commentaires.
-
-[comment]: # (Il est aussi utile de présenter les prérequis au développement du projet tel que des variables d’environnement à modifier ou l’exécution préalable de routines.)
-
+### Depth first search
+La solution se fait en O(n) dans le pire cas ou il faut visiter tous les voisins de tous les voisins pour trouver la sortie.
 
 ## Auteurs et reconnaissances
-L'échange théorique sur les possibilités et les différences dans notre approche au code avec Patrick, Valérie et Lou m'ont aider à passer par dessus plusieurs blocages.
-
-[comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)
-
+Christopher Desrosiers Mondor
 
 ## Licence
 CC
 
-
 ## État du projet
-Le développement du projet est en attente pour évaluation dans le cadre du cours de Concept de programmation.
+Le développement du projet est en attente pour évaluation dans le cadre du cours d'algorithmes.
