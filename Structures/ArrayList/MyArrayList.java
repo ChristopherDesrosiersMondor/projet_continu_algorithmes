@@ -70,7 +70,7 @@ public class MyArrayList<T> {
     public void add(T object){
         if (nb_data == length){
             T[] new_list = (T[]) new Object[this.length + 1];
-            for(int i = 0; i < new_list.length ; i++) {
+            for(int i = 0; i < this.list.length ; i++) {
                 if (this.length > 0){
                     new_list[i] = this.list[i];
                 }
@@ -136,7 +136,7 @@ public class MyArrayList<T> {
         str.append("[");
         for (int i = 0; i < this.length; i++) {
             if (i == this.length - 1) {
-                str.append(this.list[i].toString());
+                str.append(this.list[i]);
                 continue;
             }
             str.append(this.list[i] + ", ");
@@ -147,10 +147,10 @@ public class MyArrayList<T> {
 
 
 
-    // public static void main(String[] args) {
-    //     MyArrayList<Integer> test = new MyArrayList<Integer>();
-    //     System.out.println(test);
-    //     test.add(10);
-    //     test.add(null);
-    // }
+    public static void main(String[] args) {
+        MyArrayList<Integer> test = new MyArrayList<Integer>();
+        System.out.println(test);
+        test.add(10);
+        test.add(null);
+    }
 }
