@@ -16,10 +16,10 @@ L'algorithme de dept first search va priorisé visiter tous les enfants d'un voi
 ![astar_exemple](./images/astar_exemple.png "Représentation visuelle d'une solution par Astar")
 
 ### Représentation visuelle d'une solution par breath first search
-![breath_first_exemple](./images/breath_first.png "Représentation visuelle d'une solution par breath first search")
+![breath_first_exemple](./images/breath_first_exemple.png "Représentation visuelle d'une solution par breath first search")
 
 ### Représentation visuelle d'une solution par depth first search
-![depth_first_exemple](./images/depth_first_exemple.png "Représentation visuelle d'une solution par depth first search")
+![depth_first_exemple](./images/dept_first_exemple.png "Représentation visuelle d'une solution par depth first search")
 
 ## Analyse des algorithmes
 ### Astar
