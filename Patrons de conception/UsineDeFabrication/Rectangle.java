@@ -1,4 +1,4 @@
-package PatronsDeConception.UsineDeFabrication;
+package UsineDeFabrication;
 
 class Rectangle implements Forme {
     

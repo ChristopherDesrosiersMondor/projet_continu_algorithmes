@@ -1,4 +1,4 @@
-package PatronsDeConception.Singleton;
+package Singleton;
 
 public class Main {
 

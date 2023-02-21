@@ -1,4 +1,4 @@
-package Structure.Files;
+package Files;
 
 public class Employer {
     

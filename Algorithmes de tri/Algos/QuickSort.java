@@ -1,9 +1,10 @@
-package ProjetContinu.semaine7;
+package Algos;
 
 import java.util.Random;
 
-import ProjetContinu.semaine3.LinkedList;
-import ProjetContinu.semaine3.Node;
+import Labyrinthe.LinkedList;
+import Labyrinthe.Node;
+
 
 public class QuickSort {
 

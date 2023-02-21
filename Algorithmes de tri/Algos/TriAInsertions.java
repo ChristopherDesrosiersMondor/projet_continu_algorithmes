@@ -1,4 +1,4 @@
-package AlgorithmesTri;
+package Algos;
 
 public class TriAInsertions {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Structure.Arbres.ArbreBinaire;
+package ArbreBinaire;
 
 public class Main {
     public static void main(String[] args) {

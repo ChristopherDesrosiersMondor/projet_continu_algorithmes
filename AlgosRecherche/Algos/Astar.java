@@ -1,13 +1,13 @@
-package ProjetContinu.semaine9;
+package Algos;
 
 import java.awt.Color;
 
-import ProjetContinu.semaine2.ArrayList;
-import ProjetContinu.semaine6.MyPair;
-import ProjetContinu.semaine6.PriorityQueue;
-import ProjetContinu.semaine9.Labo3.GraphNode;
-import ProjetContinu.semaine9.Labo3.Labyrinth;
-import ProjetContinu.semaine9.Labo3.Tuile;
+import Labyrinthe.ArrayList;
+import Labyrinthe.GraphNode;
+import Labyrinthe.Labyrinth;
+import Labyrinthe.MyPair;
+import Labyrinthe.PriorityQueue;
+import Labyrinthe.Tuile;
 
 public class Astar {
     private Labyrinth labyrinthe;

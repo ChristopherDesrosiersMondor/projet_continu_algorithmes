@@ -1,4 +1,4 @@
-package PriorityQueue;
+package Labyrinthe;
 
 public class LinkedList<T> {
     private Node<T> first;

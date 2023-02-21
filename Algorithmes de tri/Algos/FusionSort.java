@@ -1,8 +1,9 @@
-package ProjetContinu.semaine7;
+package Algos;
 
 import java.util.Random;
 
-import ProjetContinu.semaine2.ArrayList;
+import Labyrinthe.ArrayList;
+
 
 public class FusionSort {
 

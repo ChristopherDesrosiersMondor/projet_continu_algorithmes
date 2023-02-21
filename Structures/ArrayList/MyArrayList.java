@@ -1,24 +1,7 @@
-package MyArrayList;
-
-/**
- * Nom de classe : MyArrayList
- *
- * Description   : Tentative d'implementation de ArrayList<T> et utilisation des exceptions
- *
- * Version       : 1.0
- *
- * Date          : 11/22/2022
- * 
- * Copyright     : moi
- * 
- * Sources       : https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java
- * Utilisation   : generic array type init
- * User          : dimo414
- * 
- */
+package ArrayList;
 
 public class MyArrayList<T> {
-
+    
     private T[] list;
     public int length;
     public int nb_data;

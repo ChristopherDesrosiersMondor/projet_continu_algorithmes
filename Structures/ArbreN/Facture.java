@@ -1,4 +1,4 @@
-package Partie2;
+package ArbreN;
 
 public class Facture {
 

@@ -1,4 +1,4 @@
-package PriorityQueue;
+package Labyrinthe;
 
 public class MyPair<T> {
     private double key;

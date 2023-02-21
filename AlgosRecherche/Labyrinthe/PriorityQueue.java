@@ -1,4 +1,4 @@
-package PriorityQueue;
+package Labyrinthe;
 import java.util.Random;
 
 public class PriorityQueue<T> {

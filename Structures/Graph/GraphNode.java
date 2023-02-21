@@ -1,4 +1,4 @@
-package NodesGraphTree;
+package Graph;
 
 public class GraphNode<T> {
     private T value;

@@ -1,4 +1,4 @@
-package Structure.Piles;
+package Piles;
 
 public class Employer {
     String prenom;

@@ -1,4 +1,4 @@
-package Partie2;
+package ArbreN;
 import java.util.Scanner;
 
 public class Viande implements Ingredients {

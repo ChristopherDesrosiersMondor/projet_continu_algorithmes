@@ -1,10 +1,10 @@
-package ProjetContinu.semaine8;
+package Algos;
 
 import java.awt.Color;
 
-import ProjetContinu.semaine9.Labo3.GraphNode;
-import ProjetContinu.semaine9.Labo3.Labyrinth;
-import datastruct.Queue;
+import Labyrinthe.GraphNode;
+import Labyrinthe.Labyrinth;
+import Labyrinthe.Queue;
 
 public class BreathFirstSearch {
     public static void searchWide(GraphNode<String> node) {

@@ -1,4 +1,4 @@
-package Structure.Files;
+package Files;
 import java.util.NoSuchElementException;
 
 public class FileArray {

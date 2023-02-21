@@ -1,4 +1,4 @@
-package Structure.Piles;
+package Piles;
 
 import java.util.EmptyStackException;
 

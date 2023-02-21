@@ -1,4 +1,4 @@
-package Partie2;
+package ArbreN;
 
 // Director
 public class IngredientsDeLaPizza implements BuilderInterface {

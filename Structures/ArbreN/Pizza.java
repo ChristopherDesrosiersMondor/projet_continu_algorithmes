@@ -1,4 +1,4 @@
-package Partie2;
+package ArbreN;
 
 import java.util.List;
 import java.util.Scanner;

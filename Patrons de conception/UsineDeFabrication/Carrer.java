@@ -1,4 +1,4 @@
-package PatronsDeConception.UsineDeFabrication;
+package UsineDeFabrication;
 
 public class Carrer implements Forme {
 

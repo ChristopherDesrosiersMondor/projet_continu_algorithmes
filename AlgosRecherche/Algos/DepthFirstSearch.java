@@ -1,9 +1,9 @@
-package ProjetContinu.semaine8;
+package Algos;
 
 import java.awt.Color;
 
-import ProjetContinu.semaine9.Labo3.GraphNode;
-import ProjetContinu.semaine9.Labo3.Labyrinth;
+import Labyrinthe.GraphNode;
+import Labyrinthe.Labyrinth;
 
 public class DepthFirstSearch {
     public static boolean found = false;

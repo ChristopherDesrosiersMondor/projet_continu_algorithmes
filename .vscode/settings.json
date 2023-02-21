@@ -2,7 +2,9 @@
     "java.project.sourcePaths": [
         "Structures",
         "Patrons de conception",
+        "Algorithmes_de_recherche",
         "Algorithmes de tri",
-        "Algorithmes de recherche"
+        "Algorithmes de recherche",
+        "AlgosRecherche"
     ]
 }

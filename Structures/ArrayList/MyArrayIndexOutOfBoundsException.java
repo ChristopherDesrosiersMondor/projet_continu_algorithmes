@@ -1,4 +1,4 @@
-package MyArrayList;
+package ArrayList;
 
 public class MyArrayIndexOutOfBoundsException extends Exception {
     public MyArrayIndexOutOfBoundsException(String error) {

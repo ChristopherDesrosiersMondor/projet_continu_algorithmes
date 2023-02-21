@@ -1,8 +1,8 @@
-package PizzaLab;
+package HashTable;
 
 import java.util.Random;
 
-import datastruct.DoubleLinkedList;
+import DoubleLinkedList.*;
 
 public class Part3 {
     private DoubleLinkedList<Ingredients> sauces = new DoubleLinkedList<>();

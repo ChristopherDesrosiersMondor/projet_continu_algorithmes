@@ -1,4 +1,4 @@
-package DoubleLinkedList;
+package Labyrinthe;
 public class Element<T> {
     Element<T> before;
     Element<T> after;

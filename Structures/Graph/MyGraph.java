@@ -1,6 +1,6 @@
-package NodesGraphTree;
+package Graph;
 
-import MyArrayList.MyArrayList;
+import ArrayList.*;
 
 public class MyGraph<T> {
     private int numRows;

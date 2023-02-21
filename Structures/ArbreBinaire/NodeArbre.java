@@ -1,4 +1,4 @@
-package Structure.Arbres.ArbreBinaire;
+package ArbreBinaire;
 
 public class NodeArbre {
     int data;
