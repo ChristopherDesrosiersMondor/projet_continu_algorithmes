@@ -147,13 +147,6 @@ Algorithme de Tri:
 
 [comment]: # (Si jamais le projet est toujours en production, c’est une bonne idée de présenter une feuille de route qui indique les ajouts futurs.)
 
-## Contribution
-
-[comment]: # (Il est important de préciser si vous êtes ouverts à des contributions et les spécifications autour de ces dernières.)
-Je suis très ouvert aux contributions et commentaires.
-
-[comment]: # (Il est aussi utile de présenter les prérequis au développement du projet tel que des variables d’environnement à modifier ou l’exécution préalable de routines.)
-
 
 ## Auteurs et reconnaissances
 Patrick Oliveira
