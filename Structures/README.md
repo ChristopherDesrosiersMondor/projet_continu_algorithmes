@@ -114,7 +114,7 @@ Structures de données:
 
 
 ## Auteurs et reconnaissances
-Patrick Oliveira
+Patrick Oliveira  
 Christopher Desrosiers Mondor
 
 [comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)

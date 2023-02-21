@@ -1,4 +1,4 @@
-# Algorithmes : Projet continu :round_pushpin:
+# Algorithmes de tri : Projet continu :round_pushpin:
 
 [comment]: # (Définir un nom de projet qui explique sommairement ce dernier.)
 
@@ -149,7 +149,7 @@ Algorithme de Tri:
 
 
 ## Auteurs et reconnaissances
-Patrick Oliveira
+Patrick Oliveira  
 Christopher Desrosiers Mondor
 
 [comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)
