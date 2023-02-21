@@ -1,64 +1,20 @@
 # Algorithmes : Projet continu :round_pushpin:
 
-[comment]: # (Définir un nom de projet qui explique sommairement ce dernier.)
-
-[comment]: # (Je vais utiliser le code [comment]: #  pour ajouter des commentaires dans mes readme qui fonctionneront sur plusieurs plateforme mettant en forme le markdown)
-
-[comment]: # (Source: https://stackoverflow.com/questions/4823468/comments-in-markdown)
-
-[comment]: # (Utilisateur: Nick Volynkin)
-
 ## Description
+Ce laboratoire nous à permis d'explorer l'arrière scène des algorithmes les plus utilisés en programmation. Autant les algorithmes de tri, de recherche que les patrons de conception et surtout les structures de données.
 
-[comment]: # (Il faut expliquer ce que le projet fait exactement. Il faut décrire le contexte du projet ainsi qu’offrir des ressources externes pour les termes pouvant être moins connus par les visiteurs. Si jamais ce projet est une solution alternative à un autre, il est important de le mentionner dans cette section.)
-Ce programme permet à un.e utilisateur.ice de planifier des commandes dans le cadre d'un restaurant. L'utilisateur.ice prend le role d'une personne faisant une commande et 
-le programme permet de prévoir les étapes nécessaire dans un ordre optimal pour finir tous les repas commandés au même moment pour la livraison!
-
-
-[comment]: # (## Aide visuelle)
-
-[comment]: # (Tout dépendant du type de projet, il peut être fort intéressant d’ajouter des supports visuels en faciliter la compréhension.)
-
-
-[comment]: # (## Installation)
-
-[comment]: # (Si jamais le projet nécessite l’installation de logiciels ou bibliothèque supplémentaire, il est important de le préciser ici. De plus, il faut prendre en considération que les visiteurs risquent souvent d’être des personnes plus novices. Par conséquent, il est utile de bien décrire chaque étape de l’installation de ce matériel supplémentaire.)
-
+Dans le cadre de cette évalution nous avons fait des analyses de complexité et nous avons eu une réflexion générale sur le comportement et la raison d'être de chacun des algorithmes qui se retrouvent dans les dossiers ici présents.
 
 ## Utilisation
-Lors du lancement du programme l'utilisateur.ice se fera présenter les choix suivants:  
-- Entrez l'heure desirer pour votre commande ou laisser vide pour maintenant[hh:mm]:
-- Entrez le nom d'un article du menu a ajouter a votre commande:  
-        - Ici l'article pourra être refusé si il n'est pas disponible et sera trier selon si c'est une boisson ou un repas.  
-- Avez vous fini votre commande? :  
-        - Ici l'utilisateur.ice peut continuer à ajouter des articles à sa commande ou quitter et voir le résultat (Étapes de la recette combinée et boissons)  
-
-[comment]: # (## Support)
-
-[comment]: # (Indiquez ici les endroits où les utilisateurs peuvent avoir accès à de l’aide : adresse de courriel, forum de discussion, etc.)
-
-
-[comment]: # (## Feuille de route)
-
-[comment]: # (Si jamais le projet est toujours en production, c’est une bonne idée de présenter une feuille de route qui indique les ajouts futurs.)
-
-## Contribution
-
-[comment]: # (Il est important de préciser si vous êtes ouverts à des contributions et les spécifications autour de ces dernières.)
-Je suis très ouvert aux contributions et commentaires.
-
-[comment]: # (Il est aussi utile de présenter les prérequis au développement du projet tel que des variables d’environnement à modifier ou l’exécution préalable de routines.)
-
+Vous pourrez vous déplacer dans la structure de fichier ici présente et explorer notre présentation de chaque section avec nos analyses en profondeur pour chaque algorithme implémenté.
 
 ## Auteurs et reconnaissances
-L'échange théorique sur les possibilités et les différences dans notre approche au code avec Patrick, Valérie et Lou m'ont aider à passer par dessus plusieurs blocages.
-
-[comment]: # (Il est important de reconnaître les personnes ayant contribué au projet, ainsi que de remercier les personnes ayant offert du support.)
-
+Christopher Desrosiers Mondor
+Patrick Oliveira
 
 ## Licence
 CC
 
 
 ## État du projet
-Le développement du projet est en attente pour évaluation dans le cadre du cours de Concept de programmation.
+Le développement du projet est en attente pour évaluation dans le cadre du cours d'algorithme.

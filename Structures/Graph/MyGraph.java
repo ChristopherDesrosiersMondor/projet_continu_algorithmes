@@ -103,6 +103,22 @@ public class MyGraph<T> {
         return this.nodes.get(index);
     }
 
+    public void delete(int row, int col) {
+        GraphNode<T> toDelete = getXY(row, col);
+        if (toDelete.getTop() != null) {
+            toDelete.getTop().setBottom(null);
+        }
+        if (toDelete.getBottom() != null) {
+            toDelete.getBottom().setTop(null);
+        }
+        if (toDelete.getLeft() != null) {
+            toDelete.getLeft().setRight(null);
+        }
+        if (toDelete.getRight() != null) {
+            toDelete.getRight().setLeft(null);
+        }
+    }
+
     @Override
     public String toString() {
         StringBuilder representation = new StringBuilder();
