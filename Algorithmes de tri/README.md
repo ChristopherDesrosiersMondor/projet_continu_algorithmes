@@ -32,6 +32,7 @@ tri Stable vs tri Instable:
         -Un tri est stable, alors l'ordre relatif des éléments en double a été conservé et dans ce cas c'est un tri stable.
 
 Algorithme de Tri:
+```
         1-tri de Seau:
                 -Algorithme en place
 
@@ -126,7 +127,7 @@ Algorithme de Tri:
                 -Quicksort est un algorithme diviser pour mieux régner. Il fonctionne en sélectionnant un élément 'pivot' dans le tableau et en partitionnant les autres éléments en deux sous-tableaux, selon qu'ils sont inférieurs ou supérieurs au pivot. Pour cette raison, il est parfois appelé tri par échange de partition.[4] Les sous-tableaux sont ensuite triés récursivement. Cela peut être fait sur place, nécessitant de petites quantités de mémoire supplémentaires pour effectuer le tri.
 
                 Quicksort est un tri par comparaison, ce qui signifie qu'il peut trier des éléments de n'importe quel type pour lesquels une relation "inférieur à" (formellement, un ordre total) est définie. La plupart des implémentations de tri rapide ne sont pas stables, ce qui signifie que l'ordre relatif des éléments de tri égaux n'est pas conservé.
-
+```
 
 [comment]: # (## Aide visuelle)
 
