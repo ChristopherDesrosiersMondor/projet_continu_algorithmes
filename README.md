@@ -1,14 +1,14 @@
-# Algorithmes : Projet continu :round_pushpin:
+# Algorithms: Continuous project :round_pushpin:
 
 ## Description
-Ce laboratoire nous à permis d'explorer l'arrière scène des algorithmes les plus utilisés en programmation. Autant les algorithmes de tri, de recherche que les patrons de conception et surtout les structures de données.
+This project allowed us to explore the behind the scenes of the most used algorithms in programming. As much the sorting and search algorithms as the design patterns and especially the data structures.
 
-Dans le cadre de cette évalution nous avons fait des analyses de complexité et nous avons eu une réflexion générale sur le comportement et la raison d'être de chacun des algorithmes qui se retrouvent dans les dossiers ici présents.
+As part of this evaluation we carried out complexity analyzes and we had a general reflection on the behavior and the reason for being of each of the algorithms which are found in the files presented here.
 
-## Utilisation
-Vous pourrez vous déplacer dans la structure de fichier ici présente et explorer notre présentation de chaque section avec nos analyses en profondeur pour chaque algorithme implémenté.
+## Use
+You will be able to move through the file structure here and explore our presentation of each section with our in-depth analyzes for each algorithm implemented.
 
-## Auteurs et reconnaissances
+## Authors and recognitions
 Christopher Desrosiers Mondor
 Patrick Oliveira
 
@@ -16,5 +16,5 @@ Patrick Oliveira
 CC
 
 
-## État du projet
-Le développement du projet est en attente pour évaluation dans le cadre du cours d'algorithme.
+## Project Status
+The development of the project is pending for evaluation within the algorithm course.
